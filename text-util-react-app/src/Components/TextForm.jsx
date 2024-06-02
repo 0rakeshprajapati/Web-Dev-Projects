@@ -60,10 +60,10 @@ export default function TextForm(props) {
         <div className="mb-3">
             <textarea className={`form-control bg-${props.theme==='dark'?'light':'teriary'}`} id="textarea" rows="8" value={text} onChange={change} placeholder='hello type here...'></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={toUpper}>Convert to uppercase</button>
-        <button className="btn btn-primary mx-1" onClick={toLower}>Convert to lowercase</button>
-        <button className="btn btn-primary mx-1" onClick={clear}>Clear text</button>
-        <button className="btn btn-primary mx-1" onClick={copy}>Copy text</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={toUpper}>Convert to uppercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={toLower}>Convert to lowercase</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={clear}>Clear text</button>
+        <button className="btn btn-primary mx-1 my-1" onClick={copy}>Copy text</button>
 
     </div>
     <div className={`container text-${props.theme==='light'?'dark':'light'}`}>

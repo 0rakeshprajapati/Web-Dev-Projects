@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* flex-direction is used to give direction: to how content will be arranged; */
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+.hero h1 span{
+    color: #ff2963;
+    /* background: linear-gradient(45deg,#010758,#490d61); */
+    background-image: linear-gradient(90deg, #ff2963,yellow);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* above is used to give gradient to text and color is used as fallback
+    where this is not supported by the browser; */
+} 
+
+#textArea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+}
+#textArea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background-color: #ff2963;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+select{
+    flex: 1;
+    color: white;
+    background-color: #403d84;
+    height:50px;
+    padding: 0px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+     appearance: none; /*drop down icon hides*/
+    background-image: url(images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y:20px;
+}
