@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+/**nav bar**/
+.navbar{
+    background-color:#111 ;
+    padding: 8px;
+    height: 48px;
+    color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: fixed;
+}
+.nav-vitlogo{
+    background-image: url(vit_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 144px;
+}
+.nav-rivieralogo{
+    background-image: url(riviera_logo1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 45px;
+    margin-left: 580px;
+    margin-right: 120px;
+}
+.nav-opt-btn1{
+    margin: 0px 8px;
+    padding: 8px 16px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+.nav-opt-btn1:hover{
+    background-color: #232222;
+}
+.nav-opt-btn2{
+    background-color: #d5fd4a;
+    color: black;
+    margin: 0px 8px;
+    padding: 8px 16px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.nav-opt-btn2:hover{
+    background-color: #bce32b;
+}
+    
+
+/***hero section***/
+.hero-section{
+    background-image: url(riviera_pic.png);
+    height: 790px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    color: white;
+    display: grid;
+}
+
+.hero-section-rivieralogo{
+    background-image: url(riviera_logo1.png);
+    height: 390px;
+    width: 990px;
+    margin-top: 120px;
+    margin-left: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero-section-daystogo{
+    margin-top: 5px;
+    font-size: 36px;
+    font-family:sans-serif;
+    height: 44px;
+}
+.hero-section-rivieraday{
+    font-size: 56px;
+    font-family: sans-serif;
+    height: 52px;
+    padding: 16px 16px 0px;
+    margin-top: -20px;
+}
+.hero-section-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-section-info button{
+    background-color: #d5fd4a;
+    color: black;
+    font-size: 24px;
+    margin: 8px 8px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    border: none;
+}
+.info-register{
+    margin-left: 220px;
+    margin-right: 180px;
+}
+.info-glimpse{
+    font-size: 24px;
+}
+.info-glimpse:hover{
+    color: #d5fd4a;
+}
+.info-socialmedia i{
+    padding: 18px;
+}
+
+/***marque***/
+.marque{
+    height: 36.8px;
+    padding: 24px;
+    background-color: #111;
+    color: white;
+    border-top: #232222;
+    border-bottom: #232222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+marquee{
+    font-size: 30px;
+}
+/*** pro show***/
+.prev-proshow{
+    background-color: #111;
+    height: 820px;
+    display: grid;
+}
+.box{
+    height:270px ;
+    width: 360px;
+    margin: 8px;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+.prev-proshow-text{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 4px;
+    font-size: 60px;
+    margin-top: 10px;
+}
+.prev-proshow-text p{
+    margin: 0px 20px 0px 20px;
+}
+.prev-proshow-guest{
+    height: 572px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*** footer***/
+footer{
+    height: 336px;
+    background-color: #93f2b1;
+    display: flex;
+}
+.footer-logo{
+    background-image: url(footer_logo.png);
+    height: 336px;
+    width: 460px;
+    background-size: contain;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+ul a{
+    display: block;
+    margin-top: 20px;
+}
+ul p{
+    margin-top: 20px;
+}
